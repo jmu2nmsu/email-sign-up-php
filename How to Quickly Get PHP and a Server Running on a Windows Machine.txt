@@ -31,16 +31,7 @@ Type: "php -S localhost:4000" to start the server
 In your browser open a new tab, type localhost:4000/*your/filepath/yourphpfile*.php 
 *replace this with your path info*
 Example: localhost:4000/form/email-sign-up-php/site.php
-Note that the "form" folder is inside the folder where I cd'd into in order to start the server. 
+Note that the "form" folder is inside the folder I cd'd into in order to start the server. 
 
 Important: Keep the terminal window open the entire time you need the server running. 
 
-
-
-
-
-
-
-
-
-php -S localhost:4000
