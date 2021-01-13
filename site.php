@@ -6,6 +6,7 @@
 
   <title>email sign-up form</title>
   <meta name="description" content="email sign-up form">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 
   <link rel="stylesheet" href="main.css">
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+  <h1>Let's make this official</h1>
   <form action="site.php" method="post">
     <input required type="text" name="first" placeholder="First Name">
     <input required type="text" name="last" placeholder="First Name"><br>
