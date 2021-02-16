@@ -16,18 +16,18 @@
 </head>
 
 <body>
-  <h1>Let's make this official</h1>
+  <h1>Newsletter Sign Up</h1>
   <form action="site.php" method="post">
     <input required type="text" name="first" placeholder="First Name">
-    <input required type="text" name="last" placeholder="First Name"><br>
+    <input required type="text" name="last" placeholder="Last Name"><br>
     <input required type="text" name="email" placeholder="Email"><br>
     <input type="submit">
 </form>
-    <?php 
+   <!-- <?php 
         $_POST["first"];
         $_POST["last"];
         $_POST["email"];
-    ?>
+    ?> -->
   <script src="validation.js"></script>
 </body>
 </html>

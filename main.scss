@@ -35,10 +35,15 @@ body {
 
 h1 {
     padding: 3%;
-    line-height: 10rem;
+    line-height: 5rem;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 9rem;
+    font-size: 3rem;
+
+    @media (min-width: 991px) {
+        font-size: 3rem;
+        
+    }
 }
 
 form {
@@ -52,9 +57,9 @@ input {
     font-family: 'bpmono';
     height: 8rem;
     width: 90%;
-    margin: 1rem;
+    margin-bottom: 1rem;
     font-size: 3rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     border: 1px solid #bbb;
     -webkit-box-shadow: 5px 5px 15px -8px #000000; 
     box-shadow: 5px 5px 15px -8px #000000;
@@ -67,12 +72,15 @@ input {
 
     &[name="first"],
     &[name="last"] {
+
+        @media (min-width: 991px) {
         width: 39%;
+        }
     }
 
     &[type="submit"] {
         height: 9rem;
-        width: calc(90% + 3rem);
+        width: 55%;
         font-size: 2.5rem;
         font-weight: 600;
         color: white;
